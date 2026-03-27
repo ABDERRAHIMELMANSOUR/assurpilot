@@ -203,8 +203,13 @@ export default function CallsTable({
                     {/* Actions — sticky */}
                     {hasActions && (
                       <td
-                        className="table-td" style={{ background: "var(--surface)" }}
-                        style={{ position: "sticky", right: 0, boxShadow: "-1px 0 0 #f3f4f6" }}
+                        className="table-td"
+                        style={{
+                          background: "var(--surface)",
+                          position: "sticky",
+                          right: 0,
+                          boxShadow: "-1px 0 0 #f3f4f6"
+                        }}
                       >
                         <div className="flex items-center justify-end gap-1.5">
                           {/* Result button (conseillers / all roles on non-missed) */}
